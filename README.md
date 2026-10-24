@@ -1,50 +1,82 @@
-<img width="1536" height="2752" alt="1792581781767-01a15e32-99ba-7ac2-8780-9d35affd758a" src="https://github.com/user-attachments/assets/f422cc79-5cd2-47fc-93e6-41b4b161092b" />
+<img width="1024" height="1536" alt="SteganoShield" src="https://github.com/user-attachments/assets/5e7bfbf4-b478-4c38-acbe-b8262f5dbc9b" />
 
-🐉 Morphs SteganoShield 
+# Morphs SteganoShield
+### Military-Grade Invisible Data Concealment & Pixel Steganography
 
-Next-Generation Cryptographic Image Steganography & Privacy Cloaking Suite
+**Morphs SteganoShield** is an advanced, client-side privacy workstation designed to embed encrypted secret messages and arbitrary binary files invisibly into ordinary image pixels. Operating with complete mathematical stealth, SteganoShield weaves confidential data directly into the pixel structure of lossless PNG images—allowing you to share sensitive archives, credentials, and private communications in plain sight without arousing suspicion.
 
-Morphs SteganoShield v3.0 is an air-gapped, client-side privacy powerhouse engineered to hide confidential data in plain sight.
+Everything runs **100% locally in your device’s memory**. Your images, secret payloads, files, and encryption keys never leave your hardware and are never uploaded to remote servers or third-party clouds.
 
-Traditional encryption locks your sensitive files in a digital vault, signaling to eavesdroppers that you have something valuable to protect. SteganoShield takes privacy to the next level through deep-pixel steganography: it secretly weaves your confidential text, documents, archives, and binaries directly into the raw RGB color channels of ordinary digital photos. To anyone intercepting or viewing the image, it looks like a standard picture—completely unaware that a protected payload is cloaked inside.
+### Key Capabilities & Highlights
 
-🛡️ Core Highlights & Capabilities
+* **100% Local & Air-Gapped Privacy:** Zero telemetry, zero analytics, and zero external network dependencies. All cryptographic derivation and pixel processing occur directly in local RAM.
+* **Authenticated Hardware Encryption:** Armors your payload with AES-256 encryption protected by robust PBKDF2 passphrase key derivation before weaving it into pixels. Unauthenticated parties cannot detect whether an image contains data or noise.
+* **Arbitrary Binary File Concealment:** Hide not just text, but full binary files—including compressed ZIP archives, encrypted documents, PDFs, keys, audio clips, and executables—directly inside everyday wallpapers and high-resolution photos.
+* **PRNG Coordinate Scrambler:** Eliminates sequential scan signatures by scattering payload bits pseudo-randomly across pixel coordinates, defeating conventional sequential extraction tools.
+* **Anti-Steganalysis Noise Dithering:** Applies randomized micro-dithering across unused carrier bitplanes, neutralizing statistical anomalies and entropy variance to bypass automated steganalysis filters.
+* **Forensics Radar & Difference Heatmap:** In-depth visual diagnostics including a 20× amplified difference heatmap that highlights altered bitplanes, live LSB variance monitors, payload-to-carrier capacity gauges, and visual anomaly scores.
+* **Universal Cross-Platform Delivery:** Equipped with intelligent mobile sharing, responsive downloads, and clipboard integration across desktop, mobile devices, and hybrid application containers.
 
-  - 100% Local Air-Gap Architecture
-    Your data never touches the cloud. Carrier images, confidential files, encryption passwords, and pixel manipulation run strictly inside your device’s local memory (RAM). Zero servers, zero tracking, and zero
-    telemetry.
+### Editions & Tier Gating Overview
 
-  - Dual-Layer Defense (Steganography + AES-GCM-256)
-    Hide and encrypt simultaneously. Payloads can be locked with hardware-accelerated AES-GCM-256 authenticated encryption powered by 100,000 PBKDF2-SHA256 derivation rounds, ensuring military-grade cryptographic
-    confidentiality.
+Morphs SteganoShield is structured into distinct access tiers to accommodate everyday secure messaging up to professional covert data handling:
 
-  - Universal Secret Payloads (Text & Binary Files)
-    Conceal plain text notes, confidential recovery phrases, or arbitrary binary files—including PDFs, ZIP archives, Office documents, and executables—directly into high-resolution images. 
+```
+┌─────────────────────────┬───────────────┬─────────────────┬─────────────────┬──────────────────┐
+│ Feature / Capability    │   Core Free   │ Supporter Tier  │  Standard Tier  │    Pro Premium   │
+├─────────────────────────┼───────────────┼─────────────────┼─────────────────┼──────────────────┤
+│ Price                   │     Free      │ Any Tip / Donor │      $3.50      │      $4.99       │
+│ Operation Quota         │    3 Uses     │     7 Uses      │     10 Uses     │    Unlimited     │
+│ Text Message Capacity   │   500 Chars   │   1,000 Chars   │   2,500 Chars   │  Full Unlimited  │
+│ Arbitrary Binary Files  │       —       │        —        │        —        │   Full Support   │
+│ PRNG Pixel Scrambler    │       —       │        —        │        —        │     Included     │
+│ Difference Heatmap      │       —       │        —        │        —        │     Included     │
+│ Steganalysis Dithering  │       —       │        —        │    Included     │     Included     │
+│ Themes Available        │ 2 Core Themes │ 3 Themes (Green)│    5 Themes     │  All 10 Themes   │
+│ Dynamic Font Scaling    │ Small, Medium │  Small, Medium  │ + Large Scale   │  + Extra Large   │
+└─────────────────────────┴───────────────┴─────────────────┴─────────────────┴──────────────────┘
+```
 
-  - PRNG Coordinate Scrambler
-    Eliminates predictable sequential pixel writing. Utilizing a fast, seeded Mulberry32 PRNG algorithm, payload bits are scattered pseudo-randomly across the entire image matrix, making extraction impossible without the correct key.
+### Detailed Tier Breakdown
 
-  - Anti-Steganalysis Noise Dithering
-    Defeats advanced statistical entropy scanners. Synthetic bit-noise dithering blends hidden data transitions seamlessly into adjacent pixels, preserving natural image noise floors and defeating frequency analysis.
+#### 🆓 Core Free Tier
+Designed for casual privacy and secure short-message exchange.
+* **Capacity:** Up to 500 characters per message.
+* **Usage:** 3 full encrypt/decrypt operations.
+* **Security:** Full client-side AES-256 encryption with custom passphrases.
+* **Themes:** Soft Slate (Light) and Dark Stealth.
+* **Typography:** Small and Medium UI scaling.
 
-  - Stego-Radar & Forensics Heatmap Suite
-    Inspect your cloaked creations before sending. Features an integrated 20× Amplified Pixel Difference Heatmap and LSB Bit Entropy Radar to visually verify carrier integrity, variance, and detectability indices.
+#### 💚 Supporter Tier (Any Voluntary Tip / Donation)
+Created for privacy advocates who want to support independent utility development [1, 2].
+* **Capacity:** Extended to 1,000 characters per message.
+* **Usage:** 7 full encrypt/decrypt operations.
+* **Security:** Full client-side AES-256 encryption with custom passphrases.
+* **Visual Identity:** Unlocks the exclusive **Matrix Green** high-contrast cyber theme and Supporter Badge.
+* **Support:** Priority correspondence relay.
 
-  - Mobile & Messenger Armor
-    Engineered with built-in memory shielding and lossy compression detectors. Warns against messaging app compression (such as WhatsApp photo mode) and enforces lossless PNG standards to ensure 100% byte-perfect payload recovery every time.
+#### ⚡ Standard Tier ($3.50 One-Time Purchase)
+Engineered for frequent communicators requiring expanded payload volume and anti-detection features.
+* **Capacity:** Up to 2,500 characters per message.
+* **Usage:** 10 full encrypt/decrypt operations.
+* **Stealth Armoring:** Unlocks **Anti-Steganalysis Dithering**, introducing controlled noise across carrier bitplanes to suppress statistical detection.
+* **Themes:** Unlocks Cyber Yellow and Cyberpunk Pink high-contrast palettes.
+* **Typography:** Unlocks **Large** font scaling.
 
-  - Dynamic 10-Theme Palette & Font Scaler
-    Tailor your workspace with 10 high-contrast, WCAG AAA-compliant visual themes—including Soft Slate, Stealth Dark, Matrix Green, Dracula Purple, Cyber Yellow, Nordic Frost, and Blood Matrix—paired with adaptive 4-stage
-    typography scaling.
+#### 👑 Pro Premium Tier ($4.99 One-Time Purchase)
+The complete professional suite for covert storage, data recovery, and advanced forensics.
+* **Unlimited Operations:** No usage caps or operation restrictions.
+* **Unlimited Text Capacity:** Embed entire books, databases, or transcripts bounded only by carrier resolution.
+* **Arbitrary Binary File Mode:** Directly inject and extract ZIP files, PDF documents, office files, audio, and raw binaries.
+* **PRNG Coordinate Scrambler:** Pseudo-randomly disperses data throughout carrier pixels using seeded entropy, preventing sequential line detection.
+* **Forensics Suite & Difference Heatmap:** Visualizes altered pixels with a live 20× amplified color difference viewer alongside LSB entropy variance tracking.
+* **Full Theme Suite:** Unlocks all 10 high-contrast WCAG AAA palettes (Nordic Frost, Dracula Purple, Blood Matrix, Solarized Ocean, Sunset Amber, and more).
+* **Typography:** Unlocks **Extra Large (XL)** high-visibility font scaling.
 
-💼 Who Is SteganoShield For?
+### Best Practices for Secure Delivery
 
-  - Privacy Advocates & Whistleblowers: Transfer confidential notes and sensitive documents through hostile channels undetected.
-  - Security Professionals & Researchers: Analyze pixel variances, evaluate LSB bit alterations, and test defensive anti-steganalysis methodologies.
-  - Discrete Backups & Crypto Cold Storage: Embed private keys, seed phrases, and recovery codes inside innocent family photos or desktop wallpapers.
-  - Field Agents & Journalists: Bypass strict data interception and file inspection filters by masquerading confidential data as everyday photographic assets.
+1. **Carrier Image Selection:** For text messages, standard wallpapers and camera captures work effortlessly. For large binary files (PDFs, ZIPs), use high-resolution photos (2K/4K) to ensure ample pixel capacity.
+2. **Lossless Transmission (Crucial):** Always send generated images as **Documents** or **Uncompressed Files** when using messaging applications (such as WhatsApp, Telegram, or email attachments). Standard photo-sharing modes apply lossy compression algorithms that will destroy the embedded micro-data.
+3. **Double-Blind Protection:** Keep your passphrase distinct from the image. Without the exact passphrase, an encrypted SteganoShield image is indistinguishable from standard pixel noise.
 
-🔒 The Zero-Knowledge Guarantee
-
-Your secrets belong to you alone. Morphs SteganoShield operates entirely offline within your local environment. No data, carrier photos, or encryption passwords are ever transmitted across the internet.
-
+* **Official Storefront:** [Morphs Creations on Payhip](https://payhip.com/morphscreations)
